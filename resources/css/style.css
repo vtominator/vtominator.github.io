@@ -487,9 +487,13 @@
   select:focus,
   textarea:focus {
 	outline-color: black;
-	outline-width: 4px;
+	outline-width: 2px;
 	outline-style: solid;
-  }
+	}
+	
+	textarea {
+		resize: none;
+	}
   
   input[type="submit"] {
 	width: initial;
@@ -571,7 +575,9 @@
   .js--wp-14,
   .js--wp-15,
   .js--wp-16,
-  .js--wp-17 {
+  .js--wp-17,
+	.js--wp-18,
+  .js--wp-19 {
 	opacity: 0;
   }
   
@@ -591,7 +597,9 @@
   .js--wp-14.animated,
   .js--wp-15.animated,
   .js--wp-16.animated,
-  .js--wp-17.animated {
+	.js--wp-17.animated,
+	.js--wp-18.animated,
+  .js--wp-19.animated {
 	opacity: 1;
   }
   

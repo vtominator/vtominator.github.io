@@ -186,4 +186,22 @@ $(document).ready(function() {
 			offset: "70%"
 		}
 	);
+
+	$(".js--wp-18").waypoint(
+		function() {
+			$(".js--wp-18").addClass("animated fadeInLeft");
+		},
+		{
+			offset: "50%"
+		}
+	);
+
+	$(".js--wp-19").waypoint(
+		function() {
+			$(".js--wp-19").addClass("animated fadeInRight");
+		},
+		{
+			offset: "70%"
+		}
+	);
 });
