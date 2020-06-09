@@ -22,7 +22,7 @@ $(document).ready(function() {
 				if (target.length) {
 					// Only prevent default if animation is actually gonna happen
 					if (target[0].id == "about") {
-						position = target.offset().top - 260;
+						position = target.offset().top - 50;
 					} else {
 						position = target.offset().top + 150;
 					}
